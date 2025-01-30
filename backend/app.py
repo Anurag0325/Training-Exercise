@@ -601,7 +601,7 @@ def send_email():
 
     templates_dir = os.path.join(os.path.dirname(__file__), 'templates')
 
-    with open(os.path.join(templates_dir, 'developer_template.html')) as f:
+    with open(os.path.join(templates_dir, 'training_email_template.html')) as f:
         email_template = f.read()
 
     for colleague in colleagues:
