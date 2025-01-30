@@ -608,7 +608,8 @@ def send_email():
         # tracking_link = f"https://phishing-mail-application.onrender.com/phishing_test/{colleague.id}"
         # tracking_link = f"https://phishing-mail-frontend.vercel.app/phishing_test/{colleague.id}"
         # tracking_link = f"https://phishing-mail-frontend-updated.vercel.app/phishing_test/{colleague.id}"
-        tracking_link = f"http://localhost:8080/phishing_test/{colleague.id}"
+        tracking_link = f"https://training-exercise.vercel.app/phishing_test/{colleague.id}"
+        # tracking_link = f"http://localhost:8080/phishing_test/{colleague.id}"
 
         print(f"Generated tracking link for {colleague.name}: {tracking_link}")
 
